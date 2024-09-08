@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar with Logo -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="img.png" alt="Logo">
+        </div>
+        <ul class="navbar-links">
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="attendence.html">Attendance</a></li>
+            <li><a href="#" onclick="logout()">Logout</a></li>
+        </ul>
+        <div class="user-info">Hello, <span id="studentName"></span></div>
+    </nav>
+
+    <div class="dashboard-content">
+        <h2>Your Profile</h2>
+
+        <!-- Personal Information -->
+        <div class="profile-section">
+            <h3>Personal Information</h3>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Roll Number:</strong> 123456789</p>
+            <p><strong>Date of Birth:</strong> 15th August 2000</p>
+            <p><strong>Gender:</strong> Male</p>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="profile-section">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> john.doe@example.com</p>
+            <p><strong>Phone:</strong> +1 234 567 890</p>
+            <p><strong>Address:</strong> 123 Main St, Cityville, Country</p>
+        </div>
+
+        <!-- Academic Information -->
+        <div class="profile-section">
+            <h3>Academic Information</h3>
+            <p><strong>Branch:</strong> Computer Science</p>
+            <p><strong>Year:</strong> 3rd Year</p>
+            <p><strong>CGPA:</strong> 8.5</p>
+            <p><strong>Enrolled Courses:</strong> Web Development, Data Structures, Machine Learning</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
